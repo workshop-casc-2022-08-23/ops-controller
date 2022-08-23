@@ -1,5 +1,5 @@
 apiVersion: "1"
-version: "1"
+version: "2"
 id: "workshop-casc-2022-08-23-ops-controller"
 description: "CloudBees CI configuration bundle for the workshop-casc-2022-08-23 ops-controller Controller"
 availabilityPattern: "cloudbees-ci-casc-workshop/workshop-casc-2022-08-23/ops-controller"
@@ -9,3 +9,5 @@ plugins:
   - "plugins.yaml"
 items:
   - "items.yaml"
+catalog:
+  - "plugin-catalog.yaml"
